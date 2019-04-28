@@ -26,29 +26,29 @@
 -표준이 없다. <br>
 -모든 HTML 마크업을 대신하지 못한다.<br>
 
-##4.HTML이란? <br>
+## 4.HTML이란? <br>
 <li>htpertext markup language<br></br> </li>
 <li> link가 가능한 텍스트로 이루어진 markup language </li>
 
-###4-1. HTML의 작동 절차
+### 4-1. HTML의 작동 절차
 1. DOCTYPE읽어들인다.
 2. webbrowser에서 실행한다.
 3. DOM TREE 생성
 4. CSSOM 생성
 5. Mixed
 
-##5. self - closed tag?
+## 5. self - closed tag?
 <!-- <meta />  -->
 <!-- <hr /> --> 
 <input />
 <link /> 
 
-##7. CSS 적용방법 3가지
+## 7. CSS 적용방법 3가지
 <li> in-line stylesheet </li>
 <li> internal stylesheet </li>
 <li> external stylesheet </li>
 
-##8. 색상적용 3가지
+## 8. 색상적용 3가지
 - 단어로 표현
 - rgb
 -#16진수 표기 <br>
