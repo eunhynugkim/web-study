@@ -9,8 +9,8 @@
    - merge: branch와 branch를 병합
 
 
-##2.commit을 해서 반영되는 저장소는?
-repository
+## 2.commit을 해서 반영되는 저장소는?
+- repository
 
 
 ## 3. md file 이란?
