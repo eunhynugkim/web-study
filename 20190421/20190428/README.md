@@ -17,6 +17,7 @@
 ### 2-1. semantic 태그를 이용하는 이유?
 - 검색엔진이 html 파일을 분석할 때 정확하게 컨텐츠를 식별하기 위해 정해진 semantic tag를 사용하기로 규약을 정하였다.
 (검색엔진들이 semantic web을 좋아한다.)
+
 ![semantic](semantic.PNG)
 - 이러한 tag들을 semantic tag라고 한다.
 - div와 같은 속성을 지닌다.
