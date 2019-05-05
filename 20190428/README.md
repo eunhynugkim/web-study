@@ -52,7 +52,7 @@
 ![inline-block-ex](inline block.PNG)
  
  - 예시2:
-```<style>```
+```css
 
  .box {
   
@@ -60,11 +60,29 @@
     width: 50px;
     height:50px;
 	color: pink;
-      }
-
+  }
+```
 
 ## 5. DOM tree 작성 방법
-![dom-ex](dom tree study ex.PNG)
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Title</title>
+</head>
+<body>
+    <p>저는 단락입니다.</p>
+    <p>저는 두번째
+        <p>저는 안에 있는 단락입니다.</p>
+        <p>저는 두번째 안에 있는 두번째 단락입니다.</p>
+        단락입니다.
+    </p>
+    <p>저는 세번째 단락입니다.</p>
+
+</body>
+</html>
+```
 
 - 결과
 
