@@ -49,7 +49,7 @@
 
 - 예시:
 
-![inline-block-ex](inline%20block.PNG)
+![inline-block-ex](inline block.PNG)
  
  - 예시2:
 ```<style>```
@@ -60,11 +60,11 @@
     width: 50px;
     height:50px;
 	color: pink;
-}
+      }
 
 
 ## 5. DOM tree 작성 방법
-![dom-ex](dom%20tree%20study%20ex.PNG)
+![dom-ex](dom tree study ex.PNG)
 
 - 결과
 
