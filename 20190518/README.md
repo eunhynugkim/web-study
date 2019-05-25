@@ -17,13 +17,13 @@
 - 사용 방법 : `<td>`내용`</td>`
 
 ## 1-4. 사용 예시
-`<!DOCTYPE html>`
-`<html lang="en">`
-`<head>`
-    `<meta charset="UTF-8">`
-`</head>`
-`<body>`
-`<table border="1">
+`<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+<table border="1">
     <caption>1학년 성적표</caption>
     <colgroup>
         <col/>
@@ -63,12 +63,12 @@
         <td>2020111111</td>
         <td>97</td>
         <td>95</td>
-        <td>1</td>`
-    `</tr>`
-    `</tbody>`
-    `<tfoot>`
-    `<tr>`
-        `<th scope="rowgroup" colspan="5">평균</th>`
+        <td>1</td>
+    </tr>
+    </tbody>
+    <tfoot>
+    <tr>
+        <th scope="rowgroup" colspan="5">평균</th>
 
     </tr>
     <tr>
@@ -81,9 +81,9 @@
         <td colspan="4">65</td>
     </tr>
     </tfoot>
-`</table>`
-`</body>`
-`</html>`
+</table>
+</body>
+</html>
 
 
 
