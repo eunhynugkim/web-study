@@ -65,7 +65,7 @@ local repository
 2. in-line
 3. id
 4. class
-5. 태그네임
+5. tag name
 
 ## 11.wild-card 사용방법
 ex) h3 * -> h3 하위의 모든 tag 선택
