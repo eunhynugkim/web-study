@@ -61,7 +61,7 @@
 - column 인지 row 인지를 알려주는 역할을 한다.
 - 시각장애인들이 스크린리더기를 이용할때 테이블의 데이터를 인식하고 읽는 순서와 범위를 결정한다.
 
-## 1-13. 사용 예시
+## 1-13. 예제1
 ```<!DOCTYPE html>    
 <html lang="en">    
 <head>    
@@ -133,9 +133,85 @@
 ## 1-14. 결과값
 ![col_row_group](exam.PNG)
 
+## 1-15. 예제2
 
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+<table border="1">
+    <caption>학과별 성적통계</caption>
+    <thead>
+    <tr>
+        <th scope="col">학과</th>
+        <th scope="col">이름</th>
+        <th scope="col">전공점수</th>
+        <th scope="col">비전공점수</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <th rowspan="4" scope="rowgroup">소프트</th>
+        <td>아무개</td>
+        <td>100</td>
+        <td>0</td>
+    </tr>
 
+    <tr>
+        <th scope="row">합계</th>
+        <td colspan="2">100</td>
+    </tr>
 
-
+    <tr>
+        <td>홍길동</td>
+        <td>50</td>
+        <td>70</td>
+    </tr>
+    <tr>
+        <th scope="row">합계</th>
+        <td colspan="2">120</td>
+    </tr>
+    </tbody>
+    <tbody>
+    <tr>
+        <th rowspan="4" scope="rowgroup">경영</th>
+        <td>김개똥</td>
+        <td>50</td>
+        <td>50</td>
+    </tr>
+    <tr>
+        <th scope="row">합계</th>
+        <td colspan="2">100</td>
+    </tr>
+    <tr>
+        <td>김철수</td>
+        <td>20</td>
+        <td>20</td>
+    </tr>
+    <tr>
+        <th scope="row">합계</th>
+        <td colspan="2">40</td>
+    </tr>
+    </tbody>
+    <tfoot>
+    <tr>
+        <th colspan="2" scope="row">평균</th>
+        <td>55</td>
+        <td>35</td>
+    </tr>
+    <tr>
+        <th colspan="2" scope="row">합계</th>
+        <td>220</td>
+        <td>140</td>
+    </tr>
+    </tfoot>
+</table>
+</body>
+</html>
+```
+![exam2](성적통계.PNG)
 
 
