@@ -32,13 +32,13 @@
 - 사용방법 :  ```<colgroup>  <col/>  <col/>  <col span="2"/>  </colgroup>```
 
 ## 1-7. colspan
-- column span의 약자. 행을 의미한다.
+- column span의 약자
 - 가로줄을 합칠 때 사용한다.
 - 사용방법 :``` <th colspan="2" scope="colgroup">성적</th> ```
 - 숫자는 합치는 셀의(가로줄) 개수를 의미한다.
 
 ## 1-8. rowspan
-- 세로줄을 합칠 때 사용한다. 열을 의미한다.
+- 세로줄을 합칠 때 사용한다.
 - 사용방법 : ```<th rowspan="2" scope="col">이름</th>```
 - 숫자는 합치는 셀의(세로줄) 개수를 의미한다.
 
