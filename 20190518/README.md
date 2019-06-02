@@ -136,7 +136,7 @@
 
 ## 1-15. 예제 2
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
