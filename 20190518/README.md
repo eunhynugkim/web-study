@@ -62,7 +62,8 @@
 - 시각장애인들이 스크린리더기를 이용할때 테이블의 데이터를 인식하고 읽는 순서와 범위를 결정한다.
 
 ## 1-13. 예제 1
-```<!DOCTYPE html>    
+```html
+<!DOCTYPE html>    
 <html lang="en">    
 <head>    
     <meta charset="UTF-8">
