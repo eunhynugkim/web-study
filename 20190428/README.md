@@ -49,7 +49,7 @@
 
 - 예시:
 
-![inline-block-ex](inline block.PNG)
+![inline-block-ex](inline_block.PNG)
  
  - 예시2:
 ```css
