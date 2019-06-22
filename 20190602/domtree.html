@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+</head>
+<body>
+
+<script>
+    var div = document.createElement("div");
+    document.body.appendChild(div);
+    var text = document.createTextNode("텍스트노드임니다");
+    var text2 = document.createTextNode("텍스트노드임니다2");
+    var attr = document.createAttribute("asdfasdf");
+    attr.value="test";
+    div.setAttribute(attr);
+    div.appendChild(text);
+    div.appendChild(text2);
+</script>
+</body>
+</html>

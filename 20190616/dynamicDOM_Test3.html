@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div id="main">
+
+    <div class="text-container">
+        <span>저는 span입니다.</span>
+        <p>저는 p입니다.</p>
+    </div>
+
+    <div class="image-container">
+        <img src="../20190518/성적통계.PNG"/>
+    </div>
+</div>
+<div class="text-container">
+
+
+</div>
+<script>
+    console.log(document.getElementById("main"));
+    console.log(document.getElementsByTagName("body"));
+    console.log(document.getElementsByTagName("head"));
+    console.log(document.getElementsByTagName("div"));
+    console.log(document.getElementsByClassName("text-container"));
+    console.log(document.getElementsByClassName("image-container"));
+    console.log(document.getElementById("main").getElementsByClassName("text-container")[0].getElementsByTagName("span"));
+    /*
+    for문 안에 넣는 것과 밖에 넣는 것 차이 정리하기!
+    var span = document.createElement("span");
+    span.appendChild(document.createTextNode("저는 text-container입니다."));
+    */
+    var textContainer = document.getElementsByClassName("text-container");
+    for (var i = 0; i < textContainer.length; ++i) {
+        var span = document.createElement("span"); // 이부분 이동하지 않습니다.
+        span.appendChild(document.createTextNode("저는 text-container입니다."));
+        textContainer[i].appendChild(span);
+    }
+
+    var beforeExampleElement = document.createElement("span");
+    beforeExampleElement.appendChild(document.createTextNode("비포이그젬엘리먼트"));
+
+    document.getElementById("main").insertBefore(beforeExampleElement,textContainer[0]);
+
+
+    console.log( document.getElementsByTagName("span"));
+
+</script>
+</body>
+</html>

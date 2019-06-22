@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    window.onload = function () {
+        console.log(1,document.getElementById("main"));
+        console.log(2,document.getElementsByTagName("body"));
+        console.log(3,document.getElementsByTagName("head"));
+    }
+</script>
+<div id="main">
+    <div class="text-container">
+        <span>저는 span입니다.</span>
+        <p>저는 p입니다.</p>
+    </div>
+    <div class="image-container">
+        <img src="../20190518/성적통계.PNG"/>
+    </div>
+</div>
+<div class="text-container">
+
+</div>
+<script>
+    console.log(4,document.getElementById("main"));
+    console.log(5,document.getElementsByTagName("body"));
+    console.log(6,document.getElementsByTagName("head"));
+</script>
+</body>
+</html>
