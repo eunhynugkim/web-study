@@ -7,4 +7,4 @@ span.appendChild(document.createElement("p"));
 document.createTextNode("저는 text-container입니다.");
 ```
 ## 결과 
-![dom](dom.PNG)
+![dom](dom.png)
