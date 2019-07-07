@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <style>
+        #game-table td {
+            width: 100px;
+            height: 200px;
+            border: 1px solid black;
+        }
+
+        #game-container {
+            display: inline-block;
+        }
+
+        #middle-container {
+            text-align: center;
+            width: 100%;
+        }
+
+        #game-table {
+            border-spacing: 0;
+            border: 1px solid black;
+        }
+
+        .gray {
+            background-color: gray;
+        }
+
+        .red {
+            background-color: red;
+        }
+
+        .black {
+            background-color: black;
+        }
+    </style>
+
+</head>
+<body>
+<div id="middle-container">
+    <div id="game-container">
+        <table id="game-table" border="1">
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+<script>
+    var gameTable = document.getElementById("game-table");
+    var gameTableBody = gameTable.children[0];
+    var rows = gameTableBody.children;
+    var count = 0;
+    for (var i = 0; i < rows.length; ++i) {
+        var columns = rows[i].children;
+        var index = Math.floor(Math.random() * columns.length);
+        columns[index].classList.add("black");
+    }
+    window.onkeypress = function (event) {
+        var key = event.key
+        if (key == '1') {
+            var nowIndex = rows.length -1 -count;
+            var nowColumn = rows[nowIndex].children[0];
+            if (nowColumn.classList.contains("black")){
+                nowColumn.classList.replace("black","gray");
+                count++;
+            } else {
+                nowColumn.classList.add("red");
+                alert(count);
+
+            }
+
+
+        } else if (key == '2') {
+            var nowIndex = rows.length -1 -count;
+            var nowColumn = rows[nowIndex].children[1];
+            if (nowColumn.classList.contains("black")){
+                nowColumn.classList.replace("black","gray");
+                count++;
+            } else {
+                nowColumn.classList.add("red");
+                alert(count);
+
+            }
+
+
+        } else if (key =='3') {
+            var nowIndex = rows.length -1 -count;
+            var nowColumn = rows[nowIndex].children[2];
+            if (nowColumn.classList.contains("black")){
+                nowColumn.classList.replace("black","gray");
+                count++;
+            } else {
+                nowColumn.classList.add("red");
+                alert(count);
+
+            }
+
+
+        } else if (key =='4') {
+            var nowIndex = rows.length -1 -count;
+            var nowColumn = rows[nowIndex].children[3];
+            if (nowColumn.classList.contains("black")){
+                nowColumn.classList.replace("black","gray");
+                count++;
+            } else {
+                nowColumn.classList.add("red");
+                alert(count);
+
+            }
+
+
+        }
+
+
+    }
+
+</script>
+</body>
+</html>
