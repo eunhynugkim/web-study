@@ -8,9 +8,9 @@
 
 ### 자료 type 
 
--type 종류
+- type 종류
 
--사용법 :typeof
+- 사용법 :typeof
 
 ```javascript
 <script>
