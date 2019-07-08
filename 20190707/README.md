@@ -1,12 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+# 20190707 8주차 학습정리
 
+##javascript 변수, type
 
+```javascript
 <script>
     var a = 10;
     console.log(a, typeof (a));
@@ -116,43 +112,4 @@
     console.log('[]==[]',[]==[],typeof([]==[]));
 
     console.log('[]===[]',[]===[],typeof([]===[]));
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</script>
-</body>
-</html>
+    ```
