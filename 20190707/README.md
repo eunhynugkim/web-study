@@ -1,6 +1,16 @@
 # 20190707 8주차 학습정리
 
-##javascript 변수, type
+##javascript 변수, 자료type
+
+### 변수란?
+
+- 변수의 종류
+
+### 자료 type 
+
+-type 종류
+
+-사용법 :typeof
 
 ```javascript
 <script>
