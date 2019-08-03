@@ -1,7 +1,7 @@
 # 20190420 1주차 학습 정리
 
-## 1.git 절차
-- working directory -> add -> commit -> local repository -> push -> git의 repository
+## 1.github 절차
+- working directory -> add -> commit -> local repository -> push -> github의 repository
    
 - commit : 수정 내역을 사용자 기준 단위로 기록
 - branch : 내 원래 소스코드와 독립된 작업 공간
