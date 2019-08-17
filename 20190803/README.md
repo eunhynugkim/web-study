@@ -1,5 +1,5 @@
 #20190810 정리
-## positioncss posistion
+## position
 - 태그들의 위치를 결정하는 css
         
 ## static
